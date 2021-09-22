@@ -337,7 +337,7 @@
             b Manipulación de información: 
           p Se debe contar con procedimientos que permitan etiquetar la información y que funcione con el sistema de clasificación que definió la empresa.
     p.mb-5 La clasificación de un activo de información está dada por las propiedades de los datos, estas propiedades son:
-    .contenedor-tarjetas.justify-content-center(data-aos="zoom-in-down")
+    .contenedor-tarjetas.justify-content-center.mb-5(data-aos="zoom-in-down")
       .tarjeta-degrade.p-4.align-items-center.m-1
         img(src='@/assets/curso/34.svg').mx-3
         p.fw-bold.mb-0 Confidencialidad.
@@ -347,10 +347,114 @@
       .tarjeta-degrade.p-4.align-items-center.m-1
         img(src='@/assets/curso/36.svg').mx-3
         p.fw-bold.mb-0 Disponibilidad.
+    .row.mb-5
+      .col-lg-7(data-aos="fade-right")
+        p.mb-5 Observe que siempre realizamos énfasis en la triada de la información como principios para el tratamiento de los datos; esta clasificación también revisa el impacto que tendrá cada uno de los principios en caso de ser vulnerados y el impacto de las personas o empresas en el suceso. 
+        .cajon.color-acento-contenido.bg__1-claro.p-5.mb-4
+          p Debemos tener siempre presentes los riesgos informaticos, los cuales son todo tipo de vulnerabilidades, amenazas que pueden ocurrir sin previo aviso y producir numerosas pérdidas para las empresas o las personas. Los riesgos más perjudiciales son a las tecnologías de información y comunicaciones, como por ejemplo, la pérdida de datos debido a daño en los discos, virus informáticos, entre otros.
+      .col-lg-5(data-aos="fade-left")
+        img(src='@/assets/curso/37.svg' style='width: 369px').m-auto
+    .row.mb-5.align-items-end
+      .col-md-6(data-aos="fade-right")
+        img(src='@/assets/curso/38.svg')
+      .col-md-6(data-aos="fade-left")
+        p.mb-0 Cada amenaza es diferente y no todas tienen el mismo impacto en el sistema de seguridad de los sistemas informáticos, hay exigencias elevadas y exigencias que no son tan peligrosas, pero el sistema de información y riesgo se debe encargar de todas estas amenazas de manera consciente y firme, es por eso que las partes trabajan en integrar los tipos de riesgo en tres niveles, estableciendo de esa forma la exigencia o nivel en función de la seguridad.
+    .tarjeta.bg__4-claro.p-4.mb-5
+      SlyderA
+        .row.p-4.justify-content-center
+          .col-md-8
+            img(src='@/assets/curso/39.svg' style='width: 697px, height:331px')
+        .row.p-4.justify-content-center
+          .col-md-8
+            img(src='@/assets/curso/40.svg' style='height: 454px')
+        .row.p-4.justify-content-center
+          .col-md-8
+            img(src='@/assets/curso/41.svg' style='width: 697px, height: 331px')
+    .row.mb-5.justify-content-center
+      .col-lg-10
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/42.svg')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 Recuerde: analizar el riesgo es el punto inicial de trabajo en la seguridad de información puesto que ya con el riesgo identificado se decide si se elimina, se ignora, se transfiere o se logra mitigar sabiendo siempre su real impacto corporativo y personal, es decir, se hace la gestión del riesgo.
+    p.mb-5 Anteriormente se estudió que existen diferentes riesgos informáticos, algunos de los más frecuentes son generados gracias al uso de dispositivos (informática) y se debe tener mucho cuidado porque algunos son de bajo riesgo pero pueden subir de nivel con rapidez y facilidad: 
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg__2-claro")
+      .row(titulo="Fraude a través de redes o medios computacionales.").px-5
+        .col-md-3
+          figure
+            img(src='@/assets/curso/43.jpg', alt='Texto que describa la imagen')
+        .col-md-9.mb-4.mb-md-0
+          p Es algo muy común y que se debe tener en cuenta, ya que comprende la manipulación ilegal de la información de la empresa a través de la creación de datos falsos, la alteración de los datos originales, así como de los procesos informáticos de la compañía con el propósito de obtener algún beneficio o de perjudicar a la organización.
+      .row(titulo="Utilizar ilegalmente los sistemas informáticos de otras personas.").px-5
+        .col-md-3
+          figure
+            img(src='@/assets/curso/44.jpg', alt='Texto que describa la imagen')
+        .col-md-9.mb-4.mb-md-0
+          p Esto es algo que se ve mucho en las organizaciones y se trata de cuando los trabajadores, o personas ajenas a la organización, utilizan sin autorización los equipos y programas de un sistema informático ajeno, desde el plano personal es muy común cuando hacemos uso de los correos electrónicos, redes sociales y acceso a sistemas informáticos de nuestros familiares o amigos sin su consentimiento. 
+      .row(titulo="Riesgo de asociaciones con contrapartes. ").px-5
+        .col-md-3
+          figure
+            img(src='@/assets/curso/45.jpg', alt='Texto que describa la imagen')
+        .col-md-9.mb-4.mb-md-0
+          p Este tipo de riesgo se puede presentar al tomar la decisión de trabajar en un proyecto conjunto con un tercero. Los riesgos pueden surgir al momento de compartir información personal o empresarial. 
+      .row(titulo="Acceso ").px-5
+        .col-md-3
+          figure
+            img(src='@/assets/curso/46.jpg', alt='Texto que describa la imagen')
+        .col-md-9.mb-4.mb-md-0
+          p Claves de seguridad débiles, predecibles o compartidas
 
+      .row(titulo="Utilidad ").px-5
+        .col-md-3
+          figure
+            img(src='@/assets/curso/47.jpg', alt='Texto que describa la imagen')
+        .col-md-9.mb-4.mb-md-0
+          p Mal uso de la tecnología, utilizar los recursos o medios tecnológicos para propósitos distintos a los originalmente deseados. 
 
+      .row(titulo="Infraestructura ").px-5
+        .col-md-3
+          figure
+            img(src='@/assets/curso/48.jpg', alt='Texto que describa la imagen')
+        .col-md-9.mb-4.mb-md-0
+          p Hurtos de activos como aparatos tecnológicos (computadoras, celulares, PDA, tabletas, entre otros dispositivos que contienen información personal y/o financiera)
+    p.mb-5 En los protocolos de seguridad de la información ya determinamos los riesgos y las amenazas que pueden atacar tanto los recursos físicos como digitales, ahora nos preguntamos:
+    .row.mb-5
+      .col-lg-7(data-aos="fade-right")
+        img(src='@/assets/curso/49.svg')
+      .col-lg-5(data-aos="fade-left")
+        p Para determinar cómo tratarlo y las acciones de mitigación a realizar, tenga en cuenta lo siguiente:
+        ol.lista-ol--cuadro
+          li 
+            .lista-ol--cuadro__vineta
+              span 1
+            | Revisar las políticas de seguridad.
 
+          li 
+            .lista-ol--cuadro__vineta
+              span 2
+            | Actualizar todos los filtros y antivirus.
 
+          li 
+            .lista-ol--cuadro__vineta
+              span 3
+            | Ajustar y cambiar de contraseñas de manera periódica.
+
+          li 
+            .lista-ol--cuadro__vineta
+              span 4
+            | Instalar firewalls.
+
+          li 
+            .lista-ol--cuadro__vineta
+              span 5
+            | Reservar datos, no compartir contraseñas.
+
+          li 
+            .lista-ol--cuadro__vineta
+              span 6
+            | No compartir cuentas y contraseñas de acceso a cuentas o recursos.
+    p.mb-5 Con relación a las redes sociales se dispone el siguiente paso:
 
 
 
@@ -433,4 +537,9 @@ export default {
   img
     width: 190px
     height: 190px
+.bloque-texto-g__img
+  left: auto
+  right: 0
+.bloque-texto-g
+  justify-content: flex-start !important
 </style>
