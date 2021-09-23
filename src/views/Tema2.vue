@@ -2,145 +2,102 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
-    .titulo-principal
-      .h3 Producción Audiovisual
-    
-    #t_2_1.titulo-segundo
-      .h4 2.1 Infografía Animada
-    
-    p.mb-4 Propuesta infográfica en animación que refuerce un tema y matice conceptos dados de manera creativa y con intención pedagógica.
+    .titulo-principal(data-aos="flip-up")
+      .titulo-principal__numero
+        span 2
+      h1 Las redes sociales 
+    .row.mb-5.align-items-center
+      .col-lg-6(data-aos="fade-right")
+        p Sabía que las redes sociales son mega estructuras creadas en Internet por grupos de personas que contactan entre sí para compartir intereses en común para de esa forma crear relaciones por gustos, pasiones, intereses o necesidades. Esta es la forma más rápida de relacionarse con una persona o empresa.
+          br
+          br
+          |Las primeras redes sociales como tal no surgieron hasta la popularización de Internet a principios del siglo XXI, en la web 2.0, cuya principal característica era dar la posibilidad a los usuarios de elaborar y publicar sus propios contenidos online.
+      .col-lg-6(data-aos="fade-left"): img(src="@/assets/curso/65.jpg")
+    p.mb-5 Pero, gracias a la popularización y cada vez más fácil el acceso a Internet y a elementos de comunicación móviles como los teléfonos inteligentes y las tabletas, las redes sociales han tomado una gran importancia y han incrementado el uso y acceso a este tipo de plataformas, donde el usuario busca la manera de conocerse y relacionarse e incluso busca la posibilidad de ofrecer y adquirir productos, hasta utilizarlas como estrategia para la búsqueda y consecución de empleo. 
+    Separador
+    #t_2_1.titulo-segundo(data-aos="fade-right")
+      h2 2.1 Tipos de redes sociales
+    .row.mb-5.align-items-center
+      .col-lg-6(data-aos="fade-right"): img(src="@/assets/curso/66.jpg")
+      .col-lg-6(data-aos="fade-left")
+        p Se puede pensar equivocadamente que las redes sociales son todas iguales, pero no es así. De hecho, por lo general se dividen en diferentes tipos, de acuerdo con el objetivo de los usuarios al crear un perfil, de esa forma una misma red social puede ser útil de más de una manera. 
+          br
+          br
+          |Normalmente las redes sociales que más se usan tienen el mismo propósito, pero en realidad existen muchas otras alternativas dispuestas dependiendo del objetivo al momento del registro y crear una cuenta en ellas. La clasificación más común es:
 
+    TabsD.color-acento-contenido.mb-5
+      .py-4.py-md-5(titulo="Red social de relaciones" :icono="require('@/assets/curso/53.svg')" :icono2="require('@/assets/curso/54.svg')")
+        .row
+          .col-md-3.mb-4.mb-md-0
+            img(src="@/assets/curso/61.jpg")
+          .col-md-9.mb-4.mb-md-0.w-50
+            h4 Red social de relaciones
+            p El principal objetivo de esta red Social es el de conectar personas, el caso más conocido es Facebook. Pero podemos citar innumerables otras redes, que también encajan en los otros tipos, como Instagram, LinkedIn, Twitter, etc.
+      .py-4.py-md-5(titulo="Red social de entretenimiento" :icono="require('@/assets/curso/55.svg')" :icono2="require('@/assets/curso/56.svg')")
+        .row
+          .col-md-3.mb-4.mb-md-0
+            img(src="@/assets/curso/62.jpg")
+          .col-md-9.mb-4.mb-md-0.w-50
+            h4 Red social de entretenimiento
+            p Las redes sociales de entretenimiento son aquellas en las que el objetivo principal no es relacionarse con las personas, sino consumir contenido. El ejemplo más icónico es YouTube, la mayor plataforma de distribución de vídeos del mundo, en la que el objetivo es publicar y ver vídeos. Otro caso es el de Pinterest, en el que las personas publican y consumen imágenes.
+      .py-4.py-md-5(titulo="Red social profesional " :icono="require('@/assets/curso/57.svg')" :icono2="require('@/assets/curso/58.svg')")
+        .row
+          .col-md-3.mb-4.mb-md-0
+            img(src="@/assets/curso/63.jpg")
+          .col-md-9.mb-4.mb-md-0.w-50
+            h4 Red social profesional 
+            p Son redes donde el usuario tiene como objetivo crear relaciones profesionales con otros usuarios, divulgar proyectos y conquistas profesionales, presentar su currículum y habilidades, además de conseguir indicaciones, empleos, etc.
+              br
+              |LinkedIn es la red social profesional más conocida y utilizada, pero hay otras que también vienen ganando un espacio y posicionándose, como Behance, Bebee, Bayt, Xing y Viadeo.
+      .py-4.py-md-5(titulo="Red social de nicho" :icono="require('@/assets/curso/59.svg')" :icono2="require('@/assets/curso/60.svg')")
+        .row
+          .col-md-3.mb-4.mb-md-0
+            img(src="@/assets/curso/64.jpg")
+          .col-md-9.mb-4.mb-md-0.w-50
+            h4 Red social de nicho
+            p Las redes sociales de nicho son aquellas dirigidas a un público específico, ya sea una categoría profesional o personas que tienen un interés específico en común.
+              br
+              |Uno de los casos más emblemáticos es el de TripAdvisor, donde los usuarios atribuyen notas y comentarios a atracciones relacionadas con el sector gastronómico y turístico.
+    p.mb-5 Si bien existen estas categorías de redes sociales, es importante mencionar que todas ellas fueron creadas con una visión o propósito inicial, pero que en la medida de su popularización y uso se han convertido en redes sociales que encajan perfectamente en varias de esta clasificación. 
+      br
+      br
+      |Es el caso de Facebook la cual originalmente fue creada como una red que conectara personas, en la actualidad viene siendo utilizada para ofertar productos y servicios, ofrecer entretenimiento y hasta ser un medio que facilita la publicación y contratación de oferta laboral.
+    Separador
+    #t_2_2.titulo-segundo(data-aos="fade-right")
+      h2 2.2 Usos de las redes sociales
+    p.mb-5 Este uso está determinado por el tipo de red elegida para crear una cuenta entre muchas opciones. Los usos más comunes son:
+    .tarjeta.p-2.mb-5(data-aos="zoom-in-up")
+      SlyderA
+        div: img(src="@/assets/curso/67.jpg")
+        div: img(src="@/assets/curso/68.jpg")
+        div: img(src="@/assets/curso/69.jpg")
+        div: img(src="@/assets/curso/70.jpg")
+        div: img(src="@/assets/curso/71.jpg")
+        div: img(src="@/assets/curso/72.jpg")
+        div: img(src="@/assets/curso/73.jpg")
+        div: img(src="@/assets/curso/74.jpg")
+        div: img(src="@/assets/curso/75.jpg")
+        div: img(src="@/assets/curso/76.jpg")
+        div: img(src="@/assets/curso/77.jpg")
+    Separador
+    #t_2_3.titulo-segundo(data-aos="fade-right")
+      h2 2.3 Características de seguridad en las redes sociales
+    p.mb-5 Dada la proliferación o aumento de uso de las redes sociales, a continuación se mencionan algunas características de seguridad a tener en cuenta al momento de utilizarlas.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2cnKTwQ85fg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Leyenda del video
 
-    #t_2_2.titulo-segundo
-      .h4 2.2 Video Motion
-
-    p.mb-4 Animación digital que crea la ilusión de movimiento mediante imágenes, fotografías, títulos, colores y diseños.
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/E7-BaX6ox9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_3.titulo-segundo
-      .h4 2.3 Motion + Presentador
-
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/Ky73iaXuuTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_4.titulo-segundo
-      .h4 2.4 Animación 2D
-
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/3b8VctSm558" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_5.titulo-segundo
-      .h4 2.5 Video interactivo
-
-    p.mb-4 Visualización de videos con diferentes tipos de preguntas o anotaciones.
-
-    figure.mb-5
-      .video
-        iframe(src="https://vizia.co/videos/94d994c5fe93f1b08a60eb/embed" allowtransparency="true" frameborder="0" scrolling="no" width="640" height="390")
-
-    #t_2_6.titulo-segundo
-      .h4 2.6 Infografías
-
-    p.mb-4 Es una herramienta de comunicación de alta precisión, el cual tiene una narrativa gráfica con un texto corto acompañada de elementos visuales que tienen como intención de captar rápidamente la atención del lector. 
-
-    figure.mb-5
-      img(src='@/assets/curso/infografia-1.jpg', alt='Infografía Fundamentos del Servicio de Interpretación')
-      figcaption Fundamentos del Servicio de Interpretación
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Fundamentos del Servicio de Interpretación
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/fundamentos_del_servicio_de_Interpretacion.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-2.jpg', alt='Infografía Plan de Negocios')
-      figcaption Plan de Negocios
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Plan de Negocios
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/plan_de_negocios.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-3.jpg', alt='Infografía Cobertura poblacional')
-      figcaption Cobertura poblacional
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Cobertura poblacional
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/cobertura_poblacional.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-4.jpg', alt='Infografía Historia de las microfinanzas: Mohammad Yunus')
-      figcaption Historia de las microfinanzas: Mohammad Yunus
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Historia de las microfinanzas: Mohammad Yunus
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/historia_de_las_microfinanzas_mohammad_yunus.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-5.jpg', alt='Infografía Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica')
-      figcaption Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/psicologia_de_la_moda.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
 
 </template>
 
 <script>
+import TabsD from '../components/TabsD.vue'
 export default {
   name: 'Tema2',
+  components: {
+    TabsD,
+  },
   data: () => ({
     // variables de vue
   }),

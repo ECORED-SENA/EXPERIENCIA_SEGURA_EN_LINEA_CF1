@@ -455,6 +455,26 @@
               span 6
             | No compartir cuentas y contraseñas de acceso a cuentas o recursos.
     p.mb-5 Con relación a las redes sociales se dispone el siguiente paso:
+    .row.mb-5
+      .col-lg-6(data-aos="fade-right")
+        .tarjeta-adorno.bg__1.p-4.mt-5.d-flex.align-items-center
+          .tarjeta-adorno_imagen
+            img(src='@/assets/curso/50.svg' style='width: 127px')
+          .tarjeta-adorno_contenido.px-4.py-2
+            p.text-white.mb-0 No aceptar invitaciones de personas o perfiles que no reconozca.
+      .col-lg-6(data-aos="fade-left")
+        .tarjeta-adorno.bg__1.p-4.mt-5.d-flex.align-items-center
+          .tarjeta-adorno_imagen
+            img(src='@/assets/curso/51.svg' style='width: 127px')
+          .tarjeta-adorno_contenido.px-4.py-2
+            p.text-white.mb-0 Revisar los contenidos antes de compartirlos para evitar problemas de seguridad
+    p.mb-5 Se deben tener los controles de manera preventiva antes de tener que actuar con los correctivos.
+      br
+      br
+      |Una vez calculado el riesgo, se debe responder con mitigación inmediata por medio de estrategias activas. A continuación se hace mención de las cuatro estrategias principales que puede usar en el caso de requerir mitigar un riesgo:
+    .row.mb-5.justify-content-center(data-aos="zoom-in-up")
+      .col-lg-8: img(src='@/assets/curso/52.svg')
+          
 
 
 
@@ -542,4 +562,15 @@ export default {
   right: 0
 .bloque-texto-g
   justify-content: flex-start !important
+.tarjeta-adorno
+  justify-content: flex-end
+  position: relative
+  @media (min-width: $bp-min-xl )
+    &_imagen
+        position: absolute
+        left: 0
+        bottom: 0
+        transform: translate(30%, -10%)
+    &_contenido
+      width: 70%
 </style>
