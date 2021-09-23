@@ -162,6 +162,8 @@
     p.mb-5 Creado y publicado por la Organización Internacional de Normalización (ISO), es un marco general que funciona bien para empresas de diversos tamaños en una variedad de industrias. Es similar al NIST CSF. El marco es respetado y ampliamente conocido internacionalmente. El enfoque de ISO 27001 es la protección de la confidencialidad, integridad y disponibilidad de la información en una empresa. Su filosofía se basa en la gestión de riesgos: investigar dónde están y luego tratarlos de manera sistemática tal como se presenta en la siguiente gráfica:
     figure(data-aos="zoom-in-up")
       img(src='@/assets/curso/17.svg', alt='Texto que describa la imagen')
+    br
+    br
     .titulo-sexto.color-acento-botones.d-flex.align-items-center(data-aos="fade-right")
       .titulo-principal__numero.p-3
         span.text-white.h5 3
