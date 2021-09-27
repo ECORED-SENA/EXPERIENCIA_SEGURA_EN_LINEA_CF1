@@ -160,7 +160,7 @@ export default {
         'Estándar de organización de estándares internacionales relacionado con la seguridad de la información.',
     },
     {
-      termino: 'Red social:',
+      termino: 'Red social',
       significado:
         'Son estructuras formadas en Internet por personas u organizaciones que se conectan a partir de intereses o valores comunes.',
     },
@@ -321,7 +321,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Magdi Khalifah Gamboa ',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

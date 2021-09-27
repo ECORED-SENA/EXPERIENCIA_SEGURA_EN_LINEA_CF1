@@ -48,6 +48,7 @@
             h4 Red social profesional 
             p Son redes donde el usuario tiene como objetivo crear relaciones profesionales con otros usuarios, divulgar proyectos y conquistas profesionales, presentar su currículum y habilidades, además de conseguir indicaciones, empleos, etc.
               br
+              br
               |LinkedIn es la red social profesional más conocida y utilizada, pero hay otras que también vienen ganando un espacio y posicionándose, como Behance, Bebee, Bayt, Xing y Viadeo.
       .py-4.py-md-5(titulo="Red social de nicho" :icono="require('@/assets/curso/59.svg')" :icono2="require('@/assets/curso/60.svg')")
         .row
@@ -56,6 +57,7 @@
           .col-md-9.mb-4.mb-md-0.w-50
             h4 Red social de nicho
             p Las redes sociales de nicho son aquellas dirigidas a un público específico, ya sea una categoría profesional o personas que tienen un interés específico en común.
+              br
               br
               |Uno de los casos más emblemáticos es el de TripAdvisor, donde los usuarios atribuyen notas y comentarios a atracciones relacionadas con el sector gastronómico y turístico.
     p.mb-5 Si bien existen estas categorías de redes sociales, es importante mencionar que todas ellas fueron creadas con una visión o propósito inicial, pero que en la medida de su popularización y uso se han convertido en redes sociales que encajan perfectamente en varias de esta clasificación. 
