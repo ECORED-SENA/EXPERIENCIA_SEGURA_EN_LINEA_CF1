@@ -85,11 +85,18 @@
     #t_2_3.titulo-segundo(data-aos="fade-right")
       h2 2.3 Características de seguridad en las redes sociales
     p.mb-5 Dada la proliferación o aumento de uso de las redes sociales, a continuación se mencionan algunas características de seguridad a tener en cuenta al momento de utilizarlas.
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+    .tarjeta.color-acento-contenido.p-4.p-md-5.mb-5
+      .row.justify-content-around.align-items-center
+        .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
+          img(src="@/assets/curso/78.svg")
 
+        .col-md.col-lg-6
+          h3 Características de seguridad en las redes sociales
+          p.mb-4 Para iniciar debe tener en cuenta las redes sociales que usa y  la cantidad de información que comparte al día junto con la veracidad de la misma, posterior a eso se deben tener en cuenta las siguientes condiciones de seguridad para el buen uso de las redes sociales.
+          
+          a.boton.color-acento-botones(:href="obtenerLink('/downloads/Infografia_Seguridad_Redes.pdf')" target="_blank" type="application/pdf")
+            span Descargar
+            i.fas.fa-file-download
 
 </template>
 

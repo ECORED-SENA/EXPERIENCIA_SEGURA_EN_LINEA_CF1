@@ -134,13 +134,13 @@ export default {
       referencia:
         'NIST (s.f). Framework for Improving Critical Infrastructure Cybersecurity  ',
       link:
-        'https://www.nist.gov/sites/default/files/documents/cyberframework/cybersecurity-framework-021214.pdf',
+        'https://www.businesswire.com/news/home/20180522005533/en/HITRUST%C2%AE-Provides-NIST-Cybersecurity-Framework-Certification',
     },
     {
       referencia:
         'Soriano, M. (2014). Seguridad en redes y seguridad de la información. Obtenido de http://improvet.cvut.  ',
       link:
-        'http://improvet.cvut.cz/project/download/C2ES/Seguridad_de_Red_e_Informacion.pdf.',
+        'https://www.academia.edu/40156122/Seguridad_en_redes_y_seguridad_de_la_informaci%C3%B3n',
     },
   ],
   glosario: [
