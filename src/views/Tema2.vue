@@ -32,7 +32,7 @@
             img(src="@/assets/curso/61.jpg")
           .col-md-9.mb-4.mb-md-0.w-50
             h4 Red social de relaciones
-            p El principal objetivo de esta red Social es el de conectar personas, el caso más conocido es Facebook. Pero podemos citar innumerables otras redes, que también encajan en los otros tipos, como Instagram, LinkedIn, Twitter, etc.
+            p El principal objetivo de esta red social es el de conectar personas, el caso más conocido es Facebook. Pero podemos citar innumerables otras redes, que también encajan en los otros tipos, como Instagram, LinkedIn, Twitter, etc.
       .py-4.py-md-5(titulo="Red social de entretenimiento" :icono="require('@/assets/curso/55.svg')" :icono2="require('@/assets/curso/56.svg')")
         .row
           .col-md-3.mb-4.mb-md-0

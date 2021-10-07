@@ -41,7 +41,7 @@
           .row
             .col-md-6.mb-4.mb-md-0
               h4 Prevención
-              p Esta es la primera fase que ayudará de manera significativa en la disminución de los riesgos, actuar de manera temprana implica conocer los activos o recursos tecnológicos más usados y realizar un análisis de las posibles amenazas junto con la forma en que se previenen o contrarrestan, esta fase es de gran importancia por la concienciación, preparación, capacitación y generación de conciencia que disminuye el número de errores que muchas veces por desconocimiento generan vulnerabilidades. La prevención es la mayor defensa.
+              p Esta es la primera fase que ayudará de manera significativa en la disminución de los riesgos, actuar de manera temprana implica conocer los activos o recursos tecnológicos más usados y realizar un análisis de las posibles amenazas junto con la forma en que se previenen o contrarrestan, esta fase es de gran importancia para generar conciencia, preparar y capacitar a los usuarios y de esta forma disminuir el número de errores que ocurren por desconocimiento, recuerde siempre que una buena prevención es la mejor defensa.
             .col-md-6
               figure
                 img(src='@/assets/curso/3.svg', alt='Texto que describa la imagen')
@@ -56,53 +56,30 @@
                 br
                 |Esto se logra cuando las medidas y herramientas empleadas están haciendo un constante monitoreo y gestión sobre los recursos tecnológicos, normalmente cuando se detectan los incidentes estos ya han ocurrido muchos días antes, esto es debido a que los delincuentes cada vez utilizan más herramientas y estrategias que dificultan su detección, de ahí la importancia de una constante monitorización sobre sus recursos y servicios tecnológicos.
           .row
-            .col-md-6.mb-4.mb-md-0
+            .col-md-12.mb-4.mb-md-0
               h4 Reacción
               p Una vez se detecte una posible amenaza se debe realizar una reacción inmediata que permita su mitigación, para esto se recomienda seguir los siguientes pasos:
-              ol.lista-ol--cuadro
-                li 
-                  .lista-ol--cuadro__vineta
-                    span 1
-                  | Desconectar los activos de la red que están siendo afectados.
-                li 
-                  .lista-ol--cuadro__vineta
-                    span 2
-                  | Actualizar los sistemas de protección implementados como antivirus, antimalware, antispyware, entre otras estrategias implementadas en la organización.
-                li 
-                  .lista-ol--cuadro__vineta
-                    span 3
-                  | Realizar un análisis exhaustivo sobre los sistemas o servicios afectados a fin de detectar el origen y afectación.
-                li 
-                  .lista-ol--cuadro__vineta
-                    span 4
-                  | Cambiar todas las contraseñas.
-                li 
-                  .lista-ol--cuadro__vineta
-                    span 5
-                  | Realizar una limpieza profunda de los recursos tecnológicos con las herramientas con que se cuente.
-            .col-md-6
-              figure
-                img(src='@/assets/curso/5.svg', alt='Texto que describa la imagen')
-    .contenedor-tarjetas.justify-content-center(data-aos="zoom-in-down")
-      .tarjeta-degrade.p-4.align-items-center.m-1
-        img(src='@/assets/curso/6.svg').mx-3
-        p.fw-bold Desconectar los activos de la red que están siendo afectados.
-      .tarjeta-degrade.p-4.align-items-center.m-1
-        img(src='@/assets/curso/7.svg').mx-3
-        p.fw-bold Actualizar los sistemas de protección implementados como antivirus, antimalware, antispyware, entre otras estrategias implementadas en la organización.
-      .tarjeta-degrade.p-4.align-items-center.m-1
-        img(src='@/assets/curso/8.svg').mx-3
-        p.fw-bold Realizar un análisis exhaustivo sobre los sistemas o servicios afectados a fin de detectar el origen y afectación.
-      .tarjeta-degrade.p-4.align-items-center.m-1
-        img(src='@/assets/curso/9.svg').mx-3
-        p.fw-bold Cambiar todas las contraseñas.
-      .tarjeta-degrade.p-4.align-items-center.m-1
-        img(src='@/assets/curso/10.svg').mx-3
-        p.fw-bold Realizar una limpieza profunda de los recursos tecnológicos con las herramientas con que se cuente.
+              .contenedor-tarjetas.justify-content-center(data-aos="zoom-in-down")
+                .tarjeta-degrade.p-4.align-items-center.m-1
+                  img(src='@/assets/curso/6.svg').mx-3
+                  p.fw-bold Desconectar los activos de la red que están siendo afectados.
+                .tarjeta-degrade.p-4.align-items-center.m-1
+                  img(src='@/assets/curso/7.svg').mx-3
+                  p.fw-bold Actualizar los sistemas de protección implementados como antivirus, antimalware, antispyware, entre otras estrategias implementadas en la organización.
+                .tarjeta-degrade.p-4.align-items-center.m-1
+                  img(src='@/assets/curso/8.svg').mx-3
+                  p.fw-bold Realizar un análisis exhaustivo sobre los sistemas o servicios afectados a fin de detectar el origen y afectación.
+                .tarjeta-degrade.p-4.align-items-center.m-1
+                  img(src='@/assets/curso/9.svg').mx-3
+                  p.fw-bold Cambiar todas las contraseñas.
+                .tarjeta-degrade.p-4.align-items-center.m-1
+                  img(src='@/assets/curso/10.svg').mx-3
+                  p.fw-bold Realizar una limpieza profunda de los recursos tecnológicos con las herramientas con que se cuente.
+    
     Separador
     #t_1_1.titulo-segundo(data-aos="fade-right")
       h2 1.1 Marcos de referencia
-    p.mb-5 Los ataques cibernéticos son cada vez más comunes y frecuentes, como se mencionó anteriormente debido a la inmersión de la tecnología en todos los procesos tanto personales como empresariales, es clara la necesidad de protección en recursos, información y activos, sin embargo el inicio se puede ser lejano y para eso se hace el siguiente planteamiento:
+    p.mb-5 Los ataques cibernéticos son cada vez más comunes y frecuentes, como se mencionó anteriormente debido a la inmersión de la tecnología en todos los procesos tanto personales como empresariales, es clara la necesidad de protección en recursos, información y activos, sin embargo el inicio puede ser lejano y para eso se hace el siguiente planteamiento:
     .row.mb-5.align-items-center
       .col-lg-7(data-aos="slide-right"): img(src='@/assets/curso/11.svg')
       .col-lg-5(data-aos="slide-left")
@@ -127,7 +104,7 @@
                 p Este marco establece una guía en la que cualquier empresa pueda recibir, comprender, administrar y reducir los riesgos cibernéticos junto con sus redes y datos. Este marco permite la comprensión del lenguaje común y enfoca buenas prácticas en ciberseguridad.
                   br
                   br
-                  |El Instituto Nacional de Normas y Tecnología (NIST), una agencia perteneciente al Departamento de Comercio de los Estados Unidos, desarrolló este marco. El cual utiliza un lenguaje cómodo que guía a las compañías en general a gestionar y algún impacto negativo de seguridad digital y así fortalecer la información.
+                  |El Instituto Nacional de Normas y Tecnología (NIST), una agencia perteneciente al Departamento de Comercio de los Estados Unidos, desarrolló este marco. El cual utiliza un lenguaje cómodo que guía a las compañías en general a gestionar algún impacto negativo de seguridad digital y así fortalecer la información.
               .col-md-6
                 figure
                   img(src='@/assets/curso/12.svg', alt='Texto que describa la imagen')
@@ -135,7 +112,7 @@
           .col-md-11
             .row.p-3.align-items-end
               .col-md-6.mb-4.mb-md-0
-                p Este marco no provee nuevas estructura más funciones de ciberseguridad ni incrementa categorías, solo reúne las mejores prácticas conocidas al respecto como lo son ISO, ITU, CIS, NIST, entre otros; y las agrupa según afinidad. Se centra en el uso de lanzadores para guiar las actividades de seguridad digital de las empresas considerando los riesgos de la información como parte importante en la gestión de los riesgos.
+                p Este marco no provee nuevas estructuras, más funciones de ciberseguridad, ni incrementa categorías, solo reúne las mejores prácticas conocidas al respecto como lo son ISO, ITU, CIS, NIST, entre otros; y las agrupa según afinidad. Se centra en el uso de lanzadores para guiar las actividades de seguridad digital de las empresas considerando los riesgos de la información como parte importante en la gestión de los riesgos.
               .col-md-6
                 figure
                   img(src='@/assets/curso/13.svg', alt='Texto que describa la imagen')
@@ -183,7 +160,7 @@
       br
       |Es una guía de mejores prácticas, dirigida al control y supervisión de TI. Cuenta con una serie de recursos que pueden servir de modelo de referencia para la gestión de TI, incluyendo objetivos de control, mapas de auditoría, herramientas para su implementación y una guía de técnicas de gestión como se puede ver en la siguiente figura:
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-      p.mb-0 <b>Figura 1</b> / Marco Cobit.
+      p.mb-0 <b>Figura 1</b> / Marco COBIT.
     .row.mb-5.justify-content-center(data-aos="zoom-in-up")
       .col-lg-8
         img(src='@/assets/curso/18.jpg', alt='Texto que describa la imagen')
@@ -227,7 +204,7 @@
             img(src='@/assets/curso/21.svg', alt='Texto que describa la imagen')
         .col-md-9.mb-4.mb-md-0
           p Correo no deseado. Mucha gente se ve afectada cada año por correo no deseado que falsificó su información engañando al usuario para que siga algunos de los enlaces que normalmente contiene y que los redirecciona a sitios previamente programados o en ocasiones hace que se ejecuten algunos scripts o fragmento de código que realizarán alguna actividad prohibida sobre nuestros recursos tecnológicos.
-      .row(titulo="Farming ").px-5
+      .row(titulo="Pharming ").px-5
         .col-md-3
           figure
             img(src='@/assets/curso/22.svg', alt='Texto que describa la imagen')
@@ -256,7 +233,7 @@
           figure
             img(src='@/assets/curso/26.svg', alt='Texto que describa la imagen')
         .col-md-9.mb-4.mb-md-0
-          p Es un software malicioso este es el nombre común dado a varias amenazas de seguridad que se infiltran y dañan un recurso informático.
+          p Es un software malicioso, este es el nombre común dado a varias amenazas de seguridad que se infiltran y dañan un recurso informático.
       .row(titulo="Virus ").px-5
         .col-md-3
           figure
@@ -266,7 +243,7 @@
     Separador
     #t_1_4.titulo-segundo(data-aos="fade-right")
       h2 1.4 Vulnerabilidades 
-    p.mb-5 Una vulnerabilidad informática es una debilidad en el software o en el hardware que permite a un posible atacante comprometer cualquiera de los elementos de la tríada de la seguridad como es la integridad, disponibilidad o confidencialidad del sistema o de los datos que procesa.
+    p.mb-5 Una vulnerabilidad informática es una debilidad en el software o en el hardware que permite a un posible atacante comprometer cualquiera de los elementos de la triada de la seguridad como es la integridad, disponibilidad o confidencialidad del sistema o de los datos que procesa.
     .row.mb-5.align-items-end
       .col-md-6(data-aos="fade-right")
         img(src='@/assets/curso/28.svg')
