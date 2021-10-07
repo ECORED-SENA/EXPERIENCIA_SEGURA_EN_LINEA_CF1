@@ -175,7 +175,7 @@
       |<b>HITRUST CSF</b> es un marco basado en el riesgo y el cumplimiento y se actualiza con bastante frecuencia. También se puede adaptar según una variedad de factores, que incluyen el tipo de organización, el tamaño y los sistemas, así como los requisitos reglamentarios tal como se muestra en el siguiente gráfico.
     .row.mb-5.justify-content-center(data-aos="zoom-in-up")
       .col-lg-10
-        img(src='@/assets/curso/19.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/Grupo.svg', alt='Texto que describa la imagen')
     Separador
     #t_1_2.titulo-segundo(data-aos="fade-right")
       h2 1.2 Triada de la Seguridad de la Información
